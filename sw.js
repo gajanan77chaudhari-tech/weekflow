@@ -1,4 +1,4 @@
-const CACHE='weekflow-shell-v2';
+const CACHE='weekflow-shell-v3';
 const BASE=new URL('./',self.location.href);
 const ASSETS=['manifest.webmanifest','icon-192.png','icon-512.png'];
 const urls=ASSETS.map(path=>new URL(path,BASE).href);

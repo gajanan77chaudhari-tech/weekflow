@@ -27,7 +27,10 @@ Opening index.html from Files can show the planner, but installation and service
 
 ## Schedule assumptions
 Monday 10 AM–5 PM; home at 6 PM. Tuesday home at 5 PM, Wednesday home at 6 PM, with 10 AM starts assumed. Thursday college starts at 1 PM, home at 6 PM. Friday uses a conservative 6 PM arrival.
-Delivery: 35.5h/week at an estimated ₹80/hour = ₹2,840; actual amounts are entered manually. Study: 9.25h/week. Sketching: 2.5h/week.
+Delivery: 35.5h/week at an estimated ₹80/hour = ₹2,840; actual amounts are entered manually. Study: 17.25h/week (12–2 AM daily, Thursday morning and Sunday revision). Workout: 10.5h/week (10–11:30 PM daily). Sketching: 2.5h/week.
 
 ## Local preview
 Run `python3 -m http.server 8000` from this directory and open http://localhost:8000.
+
+## Activity update
+Daily focused study: 12–2 AM, counted on its calendar date. Workout: 10–11:30 PM. Growth charts show actual earning, study, workout, delivery hours and sketching. Prior activity dates retain their original schedule snapshot; saved earnings remain intact. Import the downloadable ICS calendar for phone reminders. Daily reports can be downloaded as text. WhatsApp automation is not connected: it needs an authorized sender, recipient setup, private server storage and a scheduler; browser-local activity is not available to a remote scheduler.
