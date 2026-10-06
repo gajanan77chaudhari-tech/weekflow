@@ -34,3 +34,9 @@ Run `python3 -m http.server 8000` from this directory and open http://localhost:
 
 ## Activity update
 Daily focused study: 12–2 AM, counted on its calendar date. Workout: 10–11:30 PM. Growth charts show actual earning, study, workout, delivery hours and sketching. Prior activity dates retain their original schedule snapshot; saved earnings remain intact. Import the downloadable ICS calendar for phone reminders. Daily reports can be downloaded as text. WhatsApp automation is not connected: it needs an authorized sender, recipient setup, private server storage and a scheduler; browser-local activity is not available to a remote scheduler.
+
+
+## Free reminders and reports
+Tushar’s schedule is configured separately as ChatGPT scheduled tasks in Asia/Kolkata. Other visitors must configure their own reminders. Phone delivery depends on ChatGPT notification permission. No paid messaging service was activated.
+
+Open `#report` for the latest completed calendar date (available after 00:05 IST). Reports are built on-device when opened, from recorded actual hours, checklist completions, earnings and notes; they can be downloaded or shared. No cloud upload or automatic WhatsApp report is performed. Keep using the browser that holds your activity data. `reports.js` is included in offline app caching.

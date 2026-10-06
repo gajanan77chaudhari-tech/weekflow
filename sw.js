@@ -1,6 +1,6 @@
-const CACHE='weekflow-shell-v3';
+const CACHE='weekflow-shell-v4';
 const BASE=new URL('./',self.location.href);
-const ASSETS=['manifest.webmanifest','icon-192.png','icon-512.png'];
+const ASSETS=['manifest.webmanifest','icon-192.png','icon-512.png','reports.js'];
 const urls=ASSETS.map(path=>new URL(path,BASE).href);
 async function cachePage(request,response){
  if(!response.ok||response.redirected||response.type==='opaque')return;
